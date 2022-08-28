@@ -1,0 +1,42 @@
+body{
+  background-color:orange;
+  Background:linear-gradient(190deg,#aefa81, #ffb400);
+ }
+form{
+  color:orange;
+  width:90%;
+background-color:#000;
+  margin:0 auto;
+  padding:20px;
+}
+#title{
+  text-align:center;
+ }
+p{
+  Width:70%;
+  Text-align:center;
+  font-size:19px;
+  margin:10px auto;
+}
+input,textarea, select{
+  border-radius:10px;
+  padding:5px;
+  border:none;
+  Outline:none;
+ }
+label{
+  margin:10px auto;
+  display:block;
+
+}
+.obrigatorio, textarea,select{
+  margin:5px 0;
+  width:95%;
+  }
+
+input[type="submit"]{
+  width:100%;
+  font-size:18px;
+  background-color:orange;
+  margin:10px 0;
+  }

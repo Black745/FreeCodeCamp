@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Formulario registro freeCodeCamp </title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Formulario de pesquisa</h1>
+    <header>
+    <p id="descricao" >Responda nossa pesquisa para que possamos melhorar a Plataforma! </p>
+    <form id="survey-form">
+     
+      <label id="name-label">Nome: <input id="name" type="text" class="obrigatorio" placeholder="Digite seu nome" required/></label>
+      <label id="email-label">Email: <input type="email"  class="obrigatorio" placeholder="usuario@dominio.com" id="email" required/></label>
+      <label id="number-label">Idade: <input type="number" class="obrigatorio" id="number" placeholder="Digite sua idade" min="13" max="130" /></label>
+    
+     <h2>Qual opção melhor descreve sua função atual? </h2>
+      <select id="dropdown">
+        <option>Selecione a função atual</option>
+        <option>Aluno(a) </option>
+        <option>Trabalho em tempo integral</option>
+        <option>Aprendiz em tempo integral</option>
+        <option>Prefiro não dizer</option>
+        <option>Outros</option>
+      </select>
+      <h2 >Você recomendaria nossa plataforma a um amigo? </h2>
+      <label><input type="radio" name="recomendacao" />Sim, Com certeza </label>
+      <label><input type="radio" name="recomendacao" />Talvez </label>
+      <label><input type ="radio" name="recomendacao" />Não tenho certeza</label>
+      <h2>Quais cursos você já completou?</h2>
+      <label><input type="checkbox" value="frontend"/>Frontend</label>
+      <label><input type ="checkbox" value="backend" />Backend</label>
+      <label><input type="checkbox" value="full" />Full stack</label>
+      <label><input type ="checkbox" value="Excel" />Excel</label>
+      <label><input type ="checkbox" value="design" />Designer</label>
+      <label><input type="checkbox" value="segurança"/>Segurança informação</label>
+      <h3>Deixe sua opinião /sugestão:</h3>
+      <textarea rows="10" placeholder="  Digite aqui"></textarea>
+      <input type="submit" value="Enviar"/>
+    </form>
+  </body>
+</html>
